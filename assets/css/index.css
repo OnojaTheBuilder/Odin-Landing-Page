@@ -55,8 +55,33 @@ ul li a {
 /*Hamburger */
 .hamburger{
     display: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    padding: .625rem;
+}
+.hamburger-line {
+    width: 1.875rem;
+    height: .1875rem;
+    margin: .375rem 0;
+    background-color: #e5e7eb;
 }
 /* Menu */
 .menu {
     display: none;
+}
+
+/*Media Queries */
+@media (max-width: 48rem) {
+    .navlinks{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
+@media (max-width: 31.25rem) {
+
 }
