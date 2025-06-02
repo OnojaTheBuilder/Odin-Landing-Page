@@ -44,10 +44,10 @@ ul li a {
 .navlinks ul {
     display: flex;
 }
-.navlinks ul li {
+.navlinks ul li, .menu ul li{
     margin: 0 1rem;
 }
-.navlinks ul li a {
+.navlinks ul li a, .menu ul li a{
     color: #e5e7eb;
     font-weight: 500;
     font-size: 1.125rem;
@@ -60,6 +60,7 @@ ul li a {
     border: none;
     outline: none;
     padding: .625rem;
+    z-index: 1000;
 }
 .hamburger-line {
     width: 1.875rem;
@@ -70,6 +71,17 @@ ul li a {
 /* Menu */
 .menu {
     display: none;
+    width: 15.625rem;
+    height: 100vh;
+    background-color: #1f2937;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 6.25rem 1rem;
+}
+.menu ul li {
+    margin-bottom: 1rem;
 }
 
 /*Media Queries */
@@ -79,6 +91,9 @@ ul li a {
     }
     .hamburger{
         display: block;
+    }
+    .menu{
+        display: block
     }
 }
 
