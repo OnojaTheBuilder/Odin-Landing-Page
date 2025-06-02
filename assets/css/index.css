@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans serif;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    max-width: 71.875rem;
+    margin: 0 auto;
+    padding: 2.25rem;
+}
+
+/* Logo and NavLinks */
+.nav {
+    border: 2px solid red;
+    height: 5rem;
+    background-color: #1f2937;
+}
+.nav .container {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.logo h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f9faf8;
+}
+.navlinks ul {
+    display: flex;
+}
+.navlinks ul li {
+    margin: 0 1rem;
+}
+.navlinks ul li a {
+    color: #e5e7eb;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+/*Hamburger */
+.hamburger{
+    display: none;
+}
+/* Menu */
+.menu {
+    display: none;
+}
