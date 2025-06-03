@@ -168,6 +168,7 @@ ul li a {
     display: flex;
     gap: 2rem;
 }
+
 .box {
     width: 12.5rem;
     height: auto;
@@ -180,8 +181,35 @@ ul li a {
     max-width: 100%;
     object-fit: cover; 
 }
+.quote {
+    margin: 6.25rem 0;
+    height: auto;
+    background-color: #e5e7eb;
+}
 
+.quote .container {
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.quote-content {
+    padding: 3.125rem;
+}
+.quote-text {
+    font-size: 2.25rem;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    color: #1f2937;
+    margin: 1.125rem 0;
+}
+.author {
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 
 /*Media Queries */
 @media (max-width: 48rem) {
@@ -225,6 +253,15 @@ ul li a {
     flex-direction: column;
     gap: 1rem;
   
+  }
+
+  .quote-content{
+    padding: 1.5rem;
+  }
+  .quote-text {
+    font-size: 1.5rem;
+    max-width: 90%;
+    text-align: center;
   }
 }
 @media (max-width: 31.25rem) {
