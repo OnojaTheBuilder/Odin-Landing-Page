@@ -1,8 +1,9 @@
 // Toggle hamburger and open menu
-const hamburger = document.querySelector(".hamburger");
+const  hamburger = document.querySelector(".hamburger");
 const menu = document.querySelector(".menu");
 
+
 hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  menu.classList.toggle("active");
+    hamburger.classList.toggle("active");
+    menu.classList.toggle("active");
 });
