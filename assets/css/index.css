@@ -267,6 +267,10 @@ ul li a {
     align-items: center;
     height: 100%;
 }
+.footer-content {
+    font-size: 16px;
+    font-weight: 400;
+}
 
 /*Media Queries */
 @media (max-width: 48rem) {
